@@ -1,0 +1,92 @@
+{
+  "skills": [
+    {
+      "name": "ones-backend-healthcheck-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "在 ONES 单机/集群（K3S/K8S）环境执行后端健康巡检并输出结论，覆盖 Pod 异常、Warning Events、入口与 version API 可达性及异常 Pod 三板斧采集。",
+      "tags": ["ones", "k3s", "k8s", "backend", "healthcheck", "pod", "warning-events", "diagnostics"],
+      "path": "skills/ones-backend-healthcheck-cli"
+    },
+    {
+      "name": "ones-checklist-validation",
+      "domain": "devops",
+      "type": "skill",
+      "description": "按 ONES 官方 checklist 执行 2.1 登录/登出、2.2 项目管理、2.3 知识库管理核验，不执行 2.4/2.5/3.x 与配置权限类变更。",
+      "tags": ["ones", "checklist", "validation", "qa", "project-management", "wiki", "read-only"],
+      "path": "skills/ones-checklist-validation"
+    },
+    {
+      "name": "ones-k3s-backup-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "按官方 backup-Instructions 在 ONES 单机 K3S 执行并验证备份（MinIO/ClickHouse/MySQL/对象存储），包含手动触发与证据化校验。",
+      "tags": ["ones", "k3s", "backup", "minio", "clickhouse", "mysql", "object-storage", "disaster-recovery"],
+      "path": "skills/ones-k3s-backup-cli"
+    },
+    {
+      "name": "ones-k3s-cli-install",
+      "domain": "devops",
+      "type": "skill",
+      "description": "按官方流程在 TTY 模式安装 ONES 单机版 K3S，支持重装前卸载、CLI 方式 init-config、部署回滚观察与 30011 访问验证。",
+      "tags": ["ones", "k3s", "install", "single-node", "tty", "init-config", "reinstall", "nodeport-30011"],
+      "path": "skills/ones-k3s-cli-install"
+    },
+    {
+      "name": "ones-k3s-envcheck-fix-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "执行 K3S envcheck 并按 linux-fix 进行环境修复，修复后复检并输出通过/失败结构化报告。",
+      "tags": ["ones", "k3s", "envcheck", "linux-fix", "preflight", "system-tuning", "diagnostics"],
+      "path": "skills/ones-k3s-envcheck-fix-cli"
+    },
+    {
+      "name": "ones-k3s-open-multi-team-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "按 open-multi-team 文档在 ONES 单机 K3S 环境开启 multi-team，安全执行不可逆 SQL 更新并完成可见性状态验证。",
+      "tags": ["ones", "k3s", "multi-team", "sql-update", "visibility", "feature-enable"],
+      "path": "skills/ones-k3s-open-multi-team-cli"
+    },
+    {
+      "name": "ones-k3s-open-telemetry-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "按 open-telemetry 文档在 ONES 单机 K3S 开启可观测性（Telemetry/Grafana），支持已开启核验、未开启安装、连通性验证与回滚。",
+      "tags": ["ones", "k3s", "telemetry", "grafana", "observability", "monitoring", "port-31380"],
+      "path": "skills/ones-k3s-open-telemetry-cli"
+    },
+    {
+      "name": "ones-k3s-rebuild-kilob-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "在 ONES 单机 K3S 执行 Kilob 索引重建、解锁、CDC 重建、PD/TiKV 异常修复与一致性核验，处理索引不一致与锁冲突问题。",
+      "tags": ["ones", "k3s", "kilob", "index-rebuild", "cdc", "redis-lock", "tikv", "troubleshooting"],
+      "path": "skills/ones-k3s-rebuild-kilob-cli"
+    },
+    {
+      "name": "ones-k3s-start-stop-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "按 start-stop 文档安全启停 ONES 单机 K3S 服务，包含启停顺序、人工确认恢复与就绪性核验。",
+      "tags": ["ones", "k3s", "start-stop", "service-ops", "scale", "readiness", "single-node"],
+      "path": "skills/ones-k3s-start-stop-cli"
+    },
+    {
+      "name": "ones-k3s-upgrade-cli",
+      "domain": "devops",
+      "type": "skill",
+      "description": "按官方升级文档在 ONES 单机 K3S 执行升级，覆盖准备、备份、包导入、迁移、2.6/2.7/2.8/2.9 后置步骤与异常人工确认。",
+      "tags": ["ones", "k3s", "upgrade", "migration", "backup", "post-upgrade", "release"],
+      "path": "skills/ones-k3s-upgrade-cli"
+    },
+    {
+      "name": "ones-plugin",
+      "domain": "plugin",
+      "type": "skill",
+      "description": "ONES OP Plugin（Settings-only）通用交付指引，覆盖开发、调试、打包、升级与最小回归，兼容 Codex 与 OpenClaw。",
+      "tags": ["ones", "plugin", "settings", "op", "development", "packup", "upgrade", "codex", "openclaw"],
+      "path": "skills/ones-plugin"
+    }
+  ]
+}
