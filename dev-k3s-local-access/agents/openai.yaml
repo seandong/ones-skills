@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dev K3s Local Access"
+  short_description: "Connect local kubectl to Huawei Cloud dev k3s cluster"
+  default_prompt: "Use this skill to configure local kubectl access to Huawei Cloud dev k3s with kubectl proxy and kubeconfig updates."

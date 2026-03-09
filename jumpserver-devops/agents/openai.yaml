@@ -1,0 +1,4 @@
+interface:
+  display_name: "JumpServer DevOps"
+  short_description: "Run common dev environment ops via JumpServer API"
+  default_prompt: "Use this skill to list hosts, execute commands, fetch SSH parameters, and open SSH sessions in the dev JumpServer environment."

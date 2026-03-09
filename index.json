@@ -1,6 +1,22 @@
 {
   "skills": [
     {
+      "name": "dev-k3s-local-access",
+      "domain": "devops",
+      "type": "skill",
+      "description": "安全配置本地 kubectl 访问华为云开发 k3s 集群：导出远端 kubeconfig、通过 8080 代理接入，并以增量 upsert 方式写入本地 context，避免覆盖现有配置；支持无效 kubeconfig 条目清理。",
+      "tags": ["k3s", "kubectl", "kubeconfig", "context", "huawei-cloud", "proxy", "cleanup", "dev-environment"],
+      "version": "0.0.1"
+    },
+    {
+      "name": "jumpserver-devops",
+      "domain": "devops",
+      "type": "skill",
+      "description": "通过 JumpServer API 执行开发环境运维操作，支持资产查询、系统用户查询、远程命令执行与日志轮询、SSH 参数获取及临时凭据 SSH 连接。",
+      "tags": ["jumpserver", "devops", "ssh", "remote-command", "asset-inventory", "system-user", "api", "automation"],
+      "version": "0.0.1"
+    },
+    {
       "name": "ones-backend-healthcheck-cli",
       "domain": "devops",
       "type": "skill",
