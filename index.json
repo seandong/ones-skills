@@ -17,6 +17,14 @@
       "version": "0.0.1"
     },
     {
+      "name": "ones-ai-app-builder",
+      "domain": "devops",
+      "type": "skill",
+      "description": "为 ONES AI应用发布平台开发并打包可上传应用，支持静态 ZIP、运行包 ZIP、runtime 选择、manifest.yaml 与 start.sh 生成，以及本地数据库或外接数据库场景。",
+      "tags": ["ones", "ai-app", "app-builder", "packaging", "zip", "manifest", "runtime", "deployment"],
+      "version": "0.0.1"
+    },
+    {
       "name": "ones-backend-healthcheck-cli",
       "domain": "devops",
       "type": "skill",
