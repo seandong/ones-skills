@@ -1,0 +1,5 @@
+runtime: java17
+port: 8080
+healthCheckPath: /
+cpu: 500m
+memory: 512Mi

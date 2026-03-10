@@ -1,0 +1,5 @@
+runtime: python311
+port: 8080
+healthCheckPath: /
+cpu: 250m
+memory: 256Mi

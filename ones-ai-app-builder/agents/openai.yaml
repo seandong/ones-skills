@@ -1,0 +1,8 @@
+interface:
+  display_name: "ONES AI应用开发打包"
+  short_description: "按平台规范生成应用并打成可上传 ZIP"
+  brand_color: "#16347A"
+  default_prompt: "Use $ones-ai-app-builder to 开发并打包一个可上传到 ONES AI应用发布平台的应用。"
+
+policy:
+  allow_implicit_invocation: true
